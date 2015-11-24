@@ -17,6 +17,6 @@ app.get('/balance', function(request, response, next){
 
 });
 
-app.listen(3000, function(){
+app.listen(process.env.PORT || 3000, function(){
   console.log("I'm listening!");
 });

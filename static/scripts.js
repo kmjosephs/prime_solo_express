@@ -3,7 +3,8 @@ $(function(){
     $.ajax({
       type:"GET",
       url:'/balance'}).done(function(data){
-        $('.test').append(data);
+
+        $('.accountbalance').html(data);
     });
 
   });
