@@ -51,19 +51,39 @@ table {
 
 body {
   background: url('green_cup.png') repeat;
+  font-family: 'Cinzel', serif;
 }
+h2 {
+
+  font-size: 2.5em;
+  color: #454545;
+
+}
+
+
 main, header {
   margin: 0 auto;
   width: 75%;
-  border: 2px solid red;
+
+}
+header, footer {
+  background:#CFDBC5;
 }
 
 header{
-  background:#CFDBC5;
   text-align:center;
   height: 50px;
 }
 .test{
-  height: 100px;
+  height: 75vh;
   background-color: #f0f0f0;
+
+}
+.navfooter{
+  height: 50px;
+}
+.navfooter li {
+  display: inline;
+  margin: 25px;
+
 }

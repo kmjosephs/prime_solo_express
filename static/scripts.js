@@ -5,6 +5,7 @@ $(function(){
       url:'/balance'}).done(function(data){
 
         $('.accountbalance').html(data);
+
     });
 
   });
